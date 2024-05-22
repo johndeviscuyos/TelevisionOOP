@@ -21,6 +21,9 @@ class TV:
             self.channel = channel
 
 #create a method for getting volume
+    def get_volume(self):
+        return self.volumeLevel
+
 #create a method for setting volume and limit it 1-7
 #create a method for increasing the channel
 #create a method for decreasing the channel
