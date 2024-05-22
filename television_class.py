@@ -1,4 +1,9 @@
 #create a constructor for channel, volume level and on
+class TV:
+    def __init__(self):
+        self.channel = 1
+        self.volumeLevel = 1
+        self.on = False
 #create a method for both turn on and off
 #crete a method for getting channel
 #create a method for setting channel and limit it to 1-120
