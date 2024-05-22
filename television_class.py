@@ -25,6 +25,9 @@ class TV:
         return self.volumeLevel
 
 #create a method for setting volume and limit it 1-7
+    def set_volume(self, volumeLevel):
+        if 1 <= volumeLevel <= 7:
+            self.volumeLevel = volumeLevel
 #create a method for increasing the channel
 #create a method for decreasing the channel
 #cheate a method for increasing volume
