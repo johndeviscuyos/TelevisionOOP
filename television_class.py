@@ -12,6 +12,10 @@ class TV:
         self.on = False
 
 #crete a method for getting channel
+    def get_channel(self):
+        return self.channel
+
+
 #create a method for setting channel and limit it to 1-120
 #create a method for getting volume
 #create a method for setting volume and limit it 1-7
