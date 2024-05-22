@@ -2,7 +2,7 @@
 class TV:
     def __init__(self):
         self.channel = 1
-        self.volumeLevel = 1
+        self.volume_level = 1
         self.on = False
 #create a method for both turn on and off
     def turn_on(self):
@@ -22,12 +22,13 @@ class TV:
 
 #create a method for getting volume
     def get_volume(self):
-        return self.volumeLevel
+        return self.volume_level
 
 #create a method for setting volume and limit it 1-7
-    def set_volume(self, volumeLevel):
-        if 1 <= volumeLevel <= 7:
-            self.volumeLevel = volumeLevel
+    def set_volume(self, volume_level):
+        if 1 <= volume_level <= 7:
+            self.volume_level = volume_level
+
 #create a method for increasing the channel
 #create a method for decreasing the channel
 #cheate a method for increasing volume
